@@ -1,0 +1,28 @@
+#include<studio.h>
+Void main()
+{
+//Variable declaration
+int a,b;
+//input variable
+Printf("enter the value of a:");
+Scanf("%d",&a);
+Printf("enter the value of b:");
+Scanf("%d",&b);
+//number before swapping
+Printf("before swapping....a:%d,b:%d/n,a,b");
+//swapping number
+a=a+b;  //step 1
+b=a-b;  //step 2
+a=a-b;  //step 3
+//number after swapping
+Printf("after swapping a:%d,b:%d/n,a,b");
+Return 0;
+}
+ 
+
+Output 
+Frist run
+Enter the value of a:15
+Enter the value of b:30
+Before swapping a:15 b:30
+After swapping a:30 b:15
