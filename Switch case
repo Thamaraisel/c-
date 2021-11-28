@@ -1,4 +1,4 @@
-#include<studio.h>
+#include<stdio.h>
 int main()
 {
 Printf("pick an item from our menu:\n1.apple juice\n2.lime juice\n3.orange juice\n4.pineapple juice\n5.mango juice");
