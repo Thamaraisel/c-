@@ -1,4 +1,4 @@
-#include<studio.h>
+#include<stdio.h>
 main()
 {
 int mark[5]={60,85,95,78,90};
