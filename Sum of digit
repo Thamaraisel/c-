@@ -1,0 +1,19 @@
+#include<studio.h>
+int main()
+{
+int num,sum;
+Printf("enter the number to find the sum of digits");
+Scanf("%d",&num);
+Sum=sum of digit(num);
+Printf("sum of digit of number %d=%d" num,sum);
+Return 0;
+}
+int sum of digit (int n)\\recurtion function
+{
+if(n==0)
+return 0;
+return ((n%10)+sum of digit (n/10));
+}
+
+
+
