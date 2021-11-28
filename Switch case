@@ -1,0 +1,26 @@
+#include<studio.h>
+int main()
+{
+Printf("pick an item from our menu:\n1.apple juice\n2.lime juice\n3.orange juice\n4.pineapple juice\n5.mango juice");
+int chioce =0;
+Scanf("%d",&choice)
+Switch(choice)
+{
+Case 1:
+Printf("you ordered apple juice\n rs:35");
+Break;
+Case 2:
+Printf("you ordered lime juice\n rs:20");
+Break;
+Case 3:
+Printf("you ordered orange juice\n rs:40");
+Break;
+Case 4:
+Printf("you ordered pineapple juice\n rs:40");
+Break;
+Case 5:
+Printf("you ordered mango juice\n rs:45");
+Break;
+Default:
+Printf("choice an iteam from our menu")
+}
